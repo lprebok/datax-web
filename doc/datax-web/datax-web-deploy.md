@@ -80,10 +80,10 @@ MAIL_PASSWORD=""
 此文件中包括一些默认配置参数，例如：server.port，具体请查看文件。
 
 
-在项目目录下/modules/datax-execute/bin/env.properties 指定PYTHON_PATH的路径
+在项目目录下 modules/datax-executor/bin/env.properties 指定PYTHON_PATH的路径
 
 ```
-vi ./modules/{module_name}/bin/env.properties
+vi ./modules/datax-executor/bin/env.properties
 
 ### 执行datax的python脚本地址
 PYTHON_PATH=
@@ -129,7 +129,7 @@ Tips: 脚本使用的都是bash指令集，如若使用sh调用脚本，可能�
 
 #### 7）运行
    
-   部署完成后，在浏览器中输入 http://ip:port/index.html 就可以访问对应的主界面（ip为datax-admin部署所在服务器ip,port为为datax-admin 指定的运行端口）
+   部署完成后，在浏览器中输入 http://ip:9527/index.html 就可以访问对应的主界面（ip为datax-admin部署所在服务器ip,port为为datax-admin 指定的运行端口，默认为9527）
 
    输入用户名 admin  密码 123456 就可以直接访问系统
    
